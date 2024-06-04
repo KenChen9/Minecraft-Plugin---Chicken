@@ -1,0 +1,20 @@
+name: ChickenPlugin
+version: '${project.version}'
+main: me.chickengroup.chickenartifact.ChickenPlugin
+api-version: '1.20'
+commands:
+  hello:
+    description: A custom hello command
+    usage: /<command>
+  commands:
+    description: List all commands
+    usage: /<command>
+  tpa:
+    description: Send a teleport request to another player
+    usage: /tpa <target>
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+  tpdeny:
+    description: Deny a teleport request
+    usage: /tpdeny
